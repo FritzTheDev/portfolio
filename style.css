@@ -10,13 +10,13 @@ html {
     background-image: url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1387&q=80')
 }
 
-.hero-feature-text {
-    background: rgba(0, 0, 0, 0.75);
+.hero-feature {
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 35px;
     border-radius: 50px;
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -28,7 +28,7 @@ html {
 }
 
 .hero-display-text {
-    font-size: 3.5em;
+    font-size: 4em;
     color: white;
     font-family: 'fira mono';
 }
@@ -36,6 +36,33 @@ html {
 .hero-subtitle-text {
     color: white;
     font-family: 'roboto';
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 300;
+}
+@media only screen and (min-width: 600px) {
+    .hero-project-subfeature {
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 15px;
+        border-radius: 10px;
+        border: 2px solid white;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-project-subfeature {
+        display: none;
+    }
+}
+.hero-subfeature-text {
+    color: white;
+    font-family: 'fira mono';
+    text-align: center;
+}
+.five-mar-bot {
+    margin-bottom: 5px;
 }
