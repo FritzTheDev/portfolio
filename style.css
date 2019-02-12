@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .hero-image {
     height: 100vh;
     background-position: center;
