@@ -147,19 +147,28 @@ html {
     margin-bottom: 20px;
 
 }
-.portfolio-item-card {
+/* .portfolio-item-card {
     margin-bottom: 5%;
     margin-left: 25%;
     width: 50%;
     background-color: darkgray;
-    box-shadow: 5px 5px 3px lightgray
-}
+    box-shadow: 5px 5px 3px lightgray;
+    padding-top: 10px;
+} */
 .portfolio-card-header-text {
     color: rgb(29, 29, 29);
     font-family: 'roboto';
     text-align: center;
     font-size: 2em;
     margin-bottom: 15px;
+}
+@media screen and (max-width: 750px) {
+    .portfolio-item-card {
+        display: inline-block;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 }
 @media screen and (min-width: 750px) {
     
@@ -168,6 +177,14 @@ html {
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
+    }
+    .portfolio-item-card {
+        margin-bottom: 5%;
+        margin-left: 25%;
+        width: 50%;
+        background-color: darkgray;
+        box-shadow: 5px 5px 3px lightgray;
+        padding-top: 10px;
     }
 }
 .portfolio-card-content {
