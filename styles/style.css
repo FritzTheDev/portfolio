@@ -113,7 +113,7 @@ html {
     .hero-subfeature.project-subfeature {
         display: inherit;
         position: absolute;
-        top: 70%;
+        top: 80%;
         left: 50%;
         background-color: rgba(0, 0, 0, 0.75);
         padding: 15px;
@@ -131,4 +131,11 @@ html {
 }
 .five-mar-bot {
     margin-bottom: 5px;
+}
+
+.portfolio-section-header {
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'fira mono';
+    margin-top: .25em;
 }
