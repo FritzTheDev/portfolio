@@ -137,9 +137,16 @@ html {
     align-items: center;
 }
 
-.portfolio-section-header {
+.portfolio-section-header-text {
     font-size: 3.5em;
     text-align: center;
     font-family: 'fira mono';
     margin-top: .25em;
+}
+.portfolio-item-card {
+    margin-bottom: 5%;
+    margin-left: 25%;
+    width: 50%;
+    background-color: darkgray;
+    box-shadow: 5px 5px 3px lightgray
 }
