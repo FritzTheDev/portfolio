@@ -165,9 +165,18 @@ html {
 @media screen and (max-width: 750px) {
     .portfolio-item-card {
         display: inline-block;
-        width: 80%;
-        margin-right: 10%;
-        margin-left: 10%;
+        width: 95%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        background-color: darkgray;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .portfolio-card-image {
+        display: inline-block;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 }
 @media screen and (min-width: 750px) {
@@ -202,3 +211,4 @@ html {
 .black-hr {
     color: black;
 }
+.portfolio-iton
