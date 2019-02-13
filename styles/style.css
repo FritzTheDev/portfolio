@@ -40,7 +40,7 @@ html {
     font-weight: 300;
 }
 /* Desktop (Large) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1500px) {
     .hero-subfeature {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.75);
@@ -72,8 +72,41 @@ html {
         padding-right: 25px;
     }
 }
+/* Tablet / Smaller PC */
+@media only screen and (min-width: 750px) and (max-width: 1499px) {
+    .hero-subfeature {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 15px;
+        border-radius: 10px;
+        border: 2px solid white;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
+    }
+    .hero-subfeature:hover {
+        background-color: rgb(255, 255, 255, 0.5);
+        border: 2px solid black;
+    }
+    .hero-subfeature:hover .hero-subfeature-text {
+        color: black;
+    }
+    .hero-subfeature.project-subfeature {
+        top: 60%;
+        left: 50%;
+    }
+    .hero-subfeature.skills-subfeature {
+        top: 70%;
+        left: 50%;
+    }
+    .hero-subfeature.contact-subfeature {
+        top: 80%;
+        left: 50%;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     .hero-subfeature {
         display: none;
     }
