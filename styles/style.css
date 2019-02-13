@@ -150,3 +150,9 @@ html {
     background-color: darkgray;
     box-shadow: 5px 5px 3px lightgray
 }
+.portfolio-card-header-text {
+    color: black;
+    font-family: 'roboto';
+    text-align: center;
+    font-size: 2em;
+}
