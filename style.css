@@ -16,7 +16,7 @@ html {
     border-radius: 50px;
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -40,10 +40,10 @@ html {
     font-weight: 300;
 }
 @media only screen and (min-width: 600px) {
-    .hero-project-subfeature {
+    .hero-subfeature {
         position: absolute;
         top: 70%;
-        left: 30%;
+        left: 35%;
         background-color: rgba(0, 0, 0, 0.75);
         padding: 15px;
         border-radius: 10px;
@@ -51,11 +51,30 @@ html {
         transform: translate(-50%, -50%);
         text-decoration: none;
     }
+    .hero-subfeature:hover {
+        background-color: rgb(255, 255, 255, 0.5);
+        border: 2px solid black;
+    }
+    .hero-subfeature:hover .hero-subfeature-text {
+        color: black;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .hero-project-subfeature {
+    .hero-subfeature {
         display: none;
+    }
+    .hero-subfeature.project-subfeature {
+        display: inherit;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 15px;
+        border-radius: 10px;
+        border: 2px solid white;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
     }
 }
 .hero-subfeature-text {
