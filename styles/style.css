@@ -133,6 +133,10 @@ html {
     margin-bottom: 5px;
 }
 
+.portfolio-section {
+    align-items: center;
+}
+
 .portfolio-section-header {
     font-size: 3.5em;
     text-align: center;
