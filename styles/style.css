@@ -180,6 +180,7 @@ html {
     font-size: 1.2em;
     font-family: 'roboto';
     color: rgb(29, 29, 29);
+    text-align: center;
 }
 .black-hr {
     color: black;
