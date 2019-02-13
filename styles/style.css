@@ -28,7 +28,7 @@ html {
 }
 
 .hero-display-text {
-    font-size: 4.5em;
+    font-size: 5em;
     color: white;
     font-family: 'fira mono';
 }
@@ -36,10 +36,10 @@ html {
 .hero-subtitle-text {
     color: white;
     font-family: 'roboto';
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: 300;
 }
-/* Desktop / Tablet */
+/* Desktop (Large) */
 @media only screen and (min-width: 600px) {
     .hero-subfeature {
         position: absolute;
@@ -60,6 +60,16 @@ html {
     .hero-subfeature.project-subfeature {
         top: 70%;
         left: 25%;
+    }
+    .hero-subfeature.skills-subfeature {
+        top: 70%;
+        left: 50%;
+    }
+    .hero-subfeature.contact-subfeature {
+        top: 70%;
+        left: 75%;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 /* Mobile */
