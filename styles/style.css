@@ -138,11 +138,13 @@ html {
 }
 
 .portfolio-section-header-text {
+    text-decoration: underline;
     font-size: 3.5em;
     text-align: center;
     font-family: 'fira mono';
     margin-top: .25em;
     color: rgb(29, 29, 29);
+    margin-bottom: 20px;
 
 }
 .portfolio-item-card {
@@ -166,12 +168,19 @@ html {
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
-        margin-bottom: 2%;
     }
+}
+.portfolio-card-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .portfolio-card-text {
-    text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'roboto';
+    color: rgb(29, 29, 29);
+}
+.black-hr {
+    color: black;
 }
