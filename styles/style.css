@@ -28,7 +28,7 @@ html {
 }
 
 .hero-display-text {
-    font-size: 4em;
+    font-size: 4.5em;
     color: white;
     font-family: 'fira mono';
 }
@@ -43,8 +43,6 @@ html {
 @media only screen and (min-width: 600px) {
     .hero-subfeature {
         position: absolute;
-        top: 70%;
-        left: 35%;
         background-color: rgba(0, 0, 0, 0.75);
         padding: 15px;
         border-radius: 10px;
@@ -58,6 +56,10 @@ html {
     }
     .hero-subfeature:hover .hero-subfeature-text {
         color: black;
+    }
+    .hero-subfeature.project-subfeature {
+        top: 70%;
+        left: 25%;
     }
 }
 /* Mobile */
@@ -82,6 +84,7 @@ html {
     color: white;
     font-family: 'fira mono';
     text-align: center;
+    font-size: 1.75em;
 }
 .five-mar-bot {
     margin-bottom: 5px;
