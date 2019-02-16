@@ -171,6 +171,7 @@ html {
         background-color: darkgray;
         padding-bottom: 10px;
         padding-top: 10px;
+        margin-bottom: 5%;
     }
     .portfolio-card-image {
         display: inline-block;
